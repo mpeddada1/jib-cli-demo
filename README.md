@@ -11,7 +11,7 @@ Available as Maven and Gradle plugins
 
 ### Jib CLI JAR Command
 
-1. We will be using the Spring Petclinic JAR in this demo
+1. We will be using the [Spring Petclinic](https://projects.spring.io/spring-petclinic/) JAR in this demo
 ```
  $ git clone https://github.com/spring-projects/spring-petclinic.git
  $ cd spring-petclinic
