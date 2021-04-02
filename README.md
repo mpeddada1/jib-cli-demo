@@ -28,8 +28,8 @@ $ jib jar --target=docker://cli-jar-quickstart target/spring-petclinic-*.jar
 
 ### Jib CLI Build Command
 
-1. Get your script ready
-2. Create build file 
+1. Get your [script](https://github.com/mpeddada1/jib-cli-demo/blob/main/script.sh) ready
+2. Create [build file](https://github.com/mpeddada1/jib-cli-demo/blob/main/jib.yaml) 
 3. Build to local docker daemon 
 
 ```
