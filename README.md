@@ -19,11 +19,11 @@ Available as Maven and Gradle plugins
 ```
 2. Jib a JAR
 ```
-$ jib jar --target=docker://cli-jar-quickstart target/spring-petclinic-*.jar
+$ jib jar --target=docker://cli-jar-demo target/spring-petclinic-*.jar
 ```
 3. Run the image and open your browser http://localhost:8080
 ```
- $ docker run -p 8080:8080 cli-jar-quickstart
+ $ docker run -p 8080:8080 cli-jar-demo
 ```
 
 ### Jib CLI Build Command
