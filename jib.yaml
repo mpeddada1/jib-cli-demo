@@ -1,0 +1,16 @@
+apiVersion: jib/v1alpha1
+kind: BuildFile
+
+from:
+  image: ubuntu
+
+entrypoint: ["/script.sh"]
+
+layers:
+  entries:
+    - name: scripts
+      files:
+        - properties:
+            filePermissions: 755
+          src: script.sh
+          dest: /script.sh
