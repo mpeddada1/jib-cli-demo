@@ -25,6 +25,10 @@ $ jib jar --target=docker://cli-jar-demo target/spring-petclinic-*.jar
 ```
  $ docker run -p 8080:8080 cli-jar-demo
 ```
+4. Let's explore the layers
+```
+ $ dive cli-jar-demo
+```
 
 ### Jib CLI Build Command
 
