@@ -2,7 +2,7 @@ apiVersion: jib/v1alpha1
 kind: BuildFile
 
 from:
-  image: ubuntu
+  image: adoptopenjdk:8-jre
 
 entrypoint: ["/script.sh"]
 
